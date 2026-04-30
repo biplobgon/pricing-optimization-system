@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Data and generated artifacts
+data/raw/*.csv
+data/processed/*
+data/features/*
+data/predictions/*
+models/**/*
+logs/*
+
+# Keep placeholder files
+!**/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
