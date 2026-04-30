@@ -591,6 +591,13 @@ conda --version
 git clone https://github.com/biplobgon/pricing-optimization-system.git
 cd pricing-optimization-system
 
+# Windows PowerShell setup
+.\scripts\setup_environment.ps1
+.\.venv\Scripts\Activate.ps1
+
+# Verify setup
+python scripts/check_environment.py
+
 # Create conda environment
 conda create -n pricing_opt python=3.9
 conda activate pricing_opt

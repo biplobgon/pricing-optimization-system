@@ -4,3 +4,5 @@ black>=23.10
 flake8>=6.1
 pre-commit>=3.3
 jupyter>=1.0
+ipykernel>=6.29
+kaggle>=1.6
